@@ -1,0 +1,45 @@
+- name: FintechX-task running
+  hosts: localhost
+  gather_facts: no
+
+  vars:
+    service_account_file: /home/mate/Documents/gcp_ansible/keys/fintechx-feladat-7f3d30b50aab.json
+    project: fintechx-feladat
+    auth_kind: serviceaccount
+    scopes:
+      - https://www.googleapis.com/auth/compute
+
+  tasks:
+  - name: create a cluster
+    gcp_container_cluster:
+      name: cluster-nodepool
+      node_config:
+        image_type: ubuntu_containerd
+        tags: clusterteszt
+      initial_node_count: 1
+      location: us-central1-a
+      project: "{{ project }}"
+      auth_kind: "{{ auth_kind }}"
+      service_account_file: "{{ service_account_file }}"
+      state: present
+    register: cluster
+
+  - name: create a node pool
+    gcp_container_node_pool:
+      name: my-pool
+      config:
+        image_type: ubuntu_containerd
+        tags: clusterteszt
+      initial_node_count: 2
+      cluster: "{{ cluster }}"
+      location: us-central1-a
+      project: "{{ project }}"
+      auth_kind: "{{ auth_kind }}"
+      service_account_file: "{{ service_account_file }}"
+      state: present
+
+- name: Setting up the nodes
+  hosts: localhost
+  roles:
+    - mongodb
+    - kongo

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "weblap-project",
+  "private_key_id": "c45edd5d815f368c43b3812395db29d695dd6ed8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnJtljX8HbK1ro\nEwTRpkRDaGPuwBYHLEqQFMyyVZuRsdhE5t1Fb7wsVeZz9vgzbcWy1MOH8JJy06Et\nAjOpXHMNSYtZX1gn2mETMldYqn8o9jCzDVptneXK8T8rLJIeutEXBQDUC2uwkoqe\nsgXY3cEGqwLtdlLZwVxV86rKE6TRGsz9pGjBHWKSMZy8BxLFQ5G9FMpXoULpXenh\nNZ0fXPFGN3uzhKCkOdirgoKrI8OuY0h12J3vnXK5I/Lpfo2hOpFSqFdv3cBr6iH2\nv4rGiLw3TLYQG/P+kxFRbFAO7Adar68XX8ppQLfQ/zTCpPjPOdVtn5Yr7n27XgZg\neUG5/oyfAgMBAAECggEAI414VJI0Bf2BPvZ4om0GfP3xr4EMzmbFz0KVTWM3DTSy\nJumh69h5wkZdF5JStYGmOMTXeA0b4S+RSyT6Pw4qbIuVh6NneUaSOkaNXI8bL+e5\ncQQolUMt8s4AXRsEU2PyAD7wr6lkNPDeaiW8Z6W3Hkd2fnKZ6bYegSusSoIGHvGH\n1OR0OUAMn/0koI43gUlbnQdPyiLhsrynj38m7GkdzOuRRuoccMZZgfMxKwRPvO0V\nQHdKPzl1iZuE9/nWE/rH79q/PLHZlfG9KgSPWuYN7oGwhGM9FJ1brsLDvBSTq/KN\nHNCZVmO335lwXvg5NWLo4YREjgVp/2KKObOE2witnQKBgQDWkZqosvM9ABVb70W0\n5ufWi/gdVL1aX2hgiqP4NnslAVuGgKhbcqAW69owmUCG3QAz/UU3myHXtAEHCJaN\ndMInaNoJEnh/9zTOeb7+0EYnNV4x/WiTMpjakWZVkiCUoPrpxC3szuVqW+9NqKBC\npwhpXDGcii8mvKYMn1lgf2D+cwKBgQDHbV1DZguzIyJr8ebNgoRf/jI7B4Y40dVk\nYoVLjaJoMBTgckujhy+L4N341IMOEw39xVdOJvFd5l1bkNtBG1j3Dj0jPqQ/ftlb\nPilytfJ+vR/tPT91VOY8g7j7o11mZI/BQBm0HdAXJ7Pik4nT2e/yG2F3mg2TID5Q\nai4FFfeiJQKBgGqmnughYpO8eeFjchNz/mJ+2gnCOAg2igwKfWv/sH/5R8P4KTaj\nJ/2cp6wmUJN4QASXbBMykcTEnQog86xGD8dE77M4shpxBpdmnk/LuEL+3N4eJh+c\nM6vYP7Ri2LznszAEqgsd35xZK/4+xcG7govUHni/mqY3eJWnkuZLCiwPAoGBAMYZ\nuFQ0MRkQpKfP0vKAXRix/Jmwnr8gibY/O6PSnOqcIJDYWJSnvC5aAIWmLE011mco\nudITUx5wsHo9yd7B2L0Jsueo2SWNz0IY3LlrTehh3C4g8kGORWsFeiLVo/kLmdVg\n5GeMWeI2eTVwU7BTREwesNJLAIMOu3fMEczRhnzVAoGAL8BgMWLZU1+9y4T1fQ1Z\no64LeDRS+g7PtiSC76AzI1hc6Hcr/L0IhAleV3Bw+BAj3fYVocMzWQ/PKb+kXKFJ\nTgrmpTzhGTttRfuMKxZIedJLl31CF0Z2LYMjQ4VHbvseetnLTuCXl1KMOJfKRUgA\nETvC3UBgn8UYqFPKvHlQg+E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tesztserviceacc@weblap-project.iam.gserviceaccount.com",
+  "client_id": "109178377566357059420",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tesztserviceacc%40weblap-project.iam.gserviceaccount.com"
+}

@@ -1,0 +1,18 @@
+- name: Connect to cluster
+  shell: gcloud container clusters get-credentials cluster-nodepool --zone us-central1-a --project fintechx-feladat
+
+- name: Setting up Kong API Gateway
+  shell: kubectl apply -f https://bit.ly/k4k8s
+
+- name: TEST - Setting up proxy for test
+  script: /home/mate/Documents/gcp_ansible/kong_setup.sh
+#    export PROXY_IP=$(kubectl get -o jsonpath="{.status.loadBalancer.ingress[0].ip}" service -n kong kong-proxy)
+#    kubectl apply -f https://bit.ly/echo-service
+#    echo "apiVersion: extensions/v1beta1 kind: Ingress metadata: name: demo spec: rules: - http: paths: path: /foo backend: serviceName: echo servicePort: 80" | kubectl apply -f -ingress.extensions/demo created
+#    echo ----------------------------
+#    curl -i $PROXY_IP/foo
+  register: test
+
+- name: Print Kongo TEST logs
+  debug:
+    var: test.stdout_lines

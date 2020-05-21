@@ -1,0 +1,24 @@
+- name: Connect to cluster
+  shell: gcloud container clusters get-credentials cluster-nodepool --zone us-central1-a --project fintechx-feladat
+
+- name: Cloning git and setting up MongoDB Storage Class
+  shell: |
+    git clone https://github.com/thesandlord/mongo-k8s-sidecar.git
+    cd ./mongo-k8s-sidecar/example/StatefulSet/
+    kubectl apply -f googlecloud_ssd.yaml
+  register: clone
+
+- name: Deploying the Headless Service and StatefulSet for MongoDB
+  shell: |
+    cd ./mongo-k8s-sidecar/example/StatefulSet/
+    kubectl apply -f mongo-statefulset.yaml
+
+- name: Waiting for the pods
+  shell: |
+    kubectl get statefulset
+    kubectl get pods
+  register: statefulset
+
+- name: Print statefulset
+  debug:
+    var: statefulset.stdout_lines

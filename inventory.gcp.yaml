@@ -1,0 +1,9 @@
+plugin: gcp_compute
+projects:
+  - fintechx-feladat
+regions:                        # regions from your project you want to fetch inventory from (you can also use zones instead of regions if you target one or several specific zones)        
+  - us-central1-a
+auth_kind: serviceaccount
+hostnames: "private_ip"
+filters: []
+service_account_file: /home/mate/Documents/gcp_ansible/keys/fintechx-feladat-7f3d30b50aab.json

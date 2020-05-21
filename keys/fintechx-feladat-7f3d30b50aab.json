@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fintechx-feladat",
+  "private_key_id": "7f3d30b50aab1c1e3be7a39c6b3b0873a22c6615",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQXGQFDu4jM3Cn\n97zE1Cu0ctK/D6tzJQj2nsJoRym6Nz5Cvp9T6eR6rTPUMQcrJmD4u7ix6kATzk+L\nnjJaIjOXupt4EIXKHcSWpUDW0lUvJx2r6CKq6g8uCENbr1/XBOx9IbS1GYapHHoU\nEhcbOYWoYVJCbrsT8K0Tz6B3xCF11izdnqZPpelz2lR+kibtp/fjqJTvOkLE3F/v\nzE/3Vl3Go3tWubPtttZgEY7ClWGRT76+BW9DzYNyNafOe5ejgm301FuwS5Fz0G7R\nWeEOol/TfvemLJslVy2ANjxIpfP8iU/Ed6WZbkHO1+iEbV3PfP1/YCoO7qdj3F92\nkPIXVeaVAgMBAAECggEAARE1yhXIq+jy8cLymc/pvM1GgpQWk+TXsp8M1+GCzPYg\nlzS6j8/AWSnTosN0Bp0jhWM549LUA3F4hBM40xLCp+IAyTvyCUL8E5MILi5i49TZ\nss4mB3Zwg0obWV+sCTZnmys3H0mfhbuIqYJSumhL9Sk3BvezmVujo+xahtgj2S+n\n0HlWYwcmpOlHsv7RvAtXqoxBAlFJnnBD014P1uSPFR0DkHGsyKKzA+TUPcKouRHU\n2rmOx6nN5VYojPpehSb9CR/PTC5qCi1krfZdYgFuKA2PfiCeQ9MSwUBMSih+fZ6V\nG/lIuEOTcdiycTTieoNLCtL3frLSXi8evH7JDuct8QKBgQDDy83pUCU261Rptoc+\nPIsdpfDWK9pM7lbDwMCxJO7OMS1Wltrs8LMecsiz8gIQswU96fBSmFIumHF2MjnQ\n4IVkf5yrD5/ehspOtktR3vs9UxjZ7/pZibQ9dsBDsG4mt5ULw0wNaZKz9e1MvCx0\nnBkbR2LhlfIkN4d9bApC1+ODzQKBgQC8v9YYephiL8ua2bvLcFhyvJIzO7BOwCCM\nynLPMU1rTH6A+VZVwEKEGLGqr1cW489uTi9DpzXReU7z+2hZYC1Izc2G4+1di08e\nEYXKbuSa+yHuUonCkBj9EzU5FIBgGVL9LAaBcPTOWcQmASVWXYRZkhLHMkfFe1Sp\nLeqFJF+16QKBgA3xZoF15qCJk6JPkEP7VcDPv13RE6Ok2WLpSA+VXLgsQllHNuHm\npirF68r8se70gKwPC8El/bw5uOK84ucgBf/JIqP/4deb6649RxHWeje8wilK8J4N\ns1spKLnpR37UVfXXe4P8/6h3G+X6BIRtVVBe/giof+zaU3i4B+cIrrgFAoGAMHib\nRIIHK//WK5gKr/3T2PMwIFQNvMt+EGnU/fxNQ2bLfdeKIk9TRZUJ2ylYFhq+pDcT\n0C3alkauzd0cOQeH2ZBwXVmfFUy3LqOVVh0QO/SODCPKGNrkb+lE27m2Ffeq5jUu\nHoOhenR2+MOGkR1G5bGrfNgeskovvZp7BWIH6jECgYAInDdd6LRcG6dKKLkK/czM\nnqzA/vdxLqiq0ejc2Cf/ifKmWAnUtLhqyjxnSWlHPZHYa8XpAxbRP5WIzlWe/LUQ\naLteKop7fsU2rIW+89hgXycfSOE6FhdDihP3xr5BFOLdsxuFg4qz+E5OFdInagOK\nOvk65pFnz4ebipqnACaq/w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "teszt-serviceacc@fintechx-feladat.iam.gserviceaccount.com",
+  "client_id": "108206554923095241553",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/teszt-serviceacc%40fintechx-feladat.iam.gserviceaccount.com"
+}
