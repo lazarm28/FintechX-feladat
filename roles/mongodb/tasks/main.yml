@@ -12,6 +12,7 @@
   shell: |
     cd ./mongo-k8s-sidecar/example/StatefulSet/
     kubectl apply -f mongo-statefulset.yaml
+    kubectl apply -f mongo-express-statefulset.yaml
 
 - name: sleep for 30 seconds and continue with play
   wait_for:
