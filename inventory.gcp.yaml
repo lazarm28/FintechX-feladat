@@ -6,4 +6,4 @@ regions:                        # regions from your project you want to fetch in
 auth_kind: serviceaccount
 hostnames: "private_ip"
 filters: []
-service_account_file: /home/mate/Documents/gcp_ansible/keys/fintechx-feladat-89217ea8939f.json
+service_account_file: /home/mate/Documents/FintechX-feladat/keys/fintechx-feladat-89217ea8939f.json

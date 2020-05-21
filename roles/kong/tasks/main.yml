@@ -10,7 +10,7 @@
   delegate_to: localhost
 
 - name: TEST - Setting up proxy for test
-  script: /home/mate/Documents/gcp_ansible/kong_setup.sh
+  script: /home/mate/Documents/FintechX-feladat/kong_setup.sh
 #    export PROXY_IP=$(kubectl get -o jsonpath="{.status.loadBalancer.ingress[0].ip}" service -n kong kong-proxy)
 #    kubectl apply -f https://bit.ly/echo-service
 #    echo "apiVersion: extensions/v1beta1 kind: Ingress metadata: name: demo spec: rules: - http: paths: path: /foo backend: serviceName: echo servicePort: 80" | kubectl apply -f -ingress.extensions/demo created
