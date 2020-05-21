@@ -1,3 +1,5 @@
+#git clone https://github.com/thesandlord/mongo-k8s-sidecar.git
+
 - name: Connect to cluster
   shell: gcloud container clusters get-credentials cluster-nodepool --zone us-central1-a --project fintechx-feladat
 
