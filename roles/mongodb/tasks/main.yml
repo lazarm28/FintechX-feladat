@@ -1,17 +1,20 @@
 - name: Connect to cluster
   shell: gcloud container clusters get-credentials cluster-nodepool --zone us-central1-a --project fintechx-feladat
 
-- name: Cloning git and setting up MongoDB Storage Class
+- name: Setting up MongoDB Storage Class
   shell: |
-    git clone https://github.com/thesandlord/mongo-k8s-sidecar.git
     cd ./mongo-k8s-sidecar/example/StatefulSet/
     kubectl apply -f googlecloud_ssd.yaml
-  register: clone
 
 - name: Deploying the Headless Service and StatefulSet for MongoDB
   shell: |
     cd ./mongo-k8s-sidecar/example/StatefulSet/
     kubectl apply -f mongo-statefulset.yaml
+
+- name: sleep for 30 seconds and continue with play
+  wait_for:
+    timeout: 30
+  delegate_to: localhost
 
 - name: Waiting for the pods
   shell: |

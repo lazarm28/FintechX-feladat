@@ -1,0 +1,5 @@
+- name: Setting up the nodes
+  hosts: localhost
+  roles:
+    - mongodb
+#    - kong

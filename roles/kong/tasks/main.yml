@@ -4,6 +4,11 @@
 - name: Setting up Kong API Gateway
   shell: kubectl apply -f https://bit.ly/k4k8s
 
+- name: sleep for 60 seconds and continue with play
+  wait_for:
+    timeout: 60
+  delegate_to: localhost
+
 - name: TEST - Setting up proxy for test
   script: /home/mate/Documents/gcp_ansible/kong_setup.sh
 #    export PROXY_IP=$(kubectl get -o jsonpath="{.status.loadBalancer.ingress[0].ip}" service -n kong kong-proxy)
