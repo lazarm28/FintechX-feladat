@@ -15,7 +15,7 @@
       name: cluster-nodepool
       node_config:
         image_type: ubuntu_containerd
-        tags: clusterteszt
+        tags: cluster_ubuntu
       initial_node_count: 1
       location: us-central1-a
       project: "{{ project }}"
@@ -29,7 +29,7 @@
       name: my-pool
       config:
         image_type: ubuntu_containerd
-        tags: clusterteszt
+        tags: node_ubuntu
       initial_node_count: 2
       cluster: "{{ cluster }}"
       location: us-central1-a
