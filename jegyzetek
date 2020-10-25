@@ -1,0 +1,59 @@
+Start:
+https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu
+https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl
+https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
+INFO:
+https://jee-appy.blogspot.com/2018/08/understanding-kubernetes-architecture.html
+https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
+
+régi módszer, magától indul minden: (1master, 3node)
+https://kubernetes.io/docs/setup/production-environment/turnkey/gce/
+
+venv:
+https://www.liquidweb.com/kb/creating-virtual-environment-ubuntu-16-04/
+https://docs.python.org/3/tutorial/venv.html
+https://docs.python.org/3/library/venv.html
+
+hétfő 3 óra kubernetes utánna olvasás
+kedd 4 óra ansible-gcp connection (működik a cluster,node létrehozás,kézzel a kong is)
+szerda 5 óra ansible, kongo integrálás,mongo integrálása (valamiért nem működött az ansible)
+csütörtök 3 óra git-be felrakás, dokumentáció(leírás), mongodb fix
+~15 óra
+
+Ansible GCP Inventory Connection:
+https://docs.ansible.com/ansible/latest/scenario_guides/guide_gce.html
+
+Ansible dinamikus inventory teszt:
+ansible all --list-hosts
+
+Ansible node and cluster help:
+https://docs.ansible.com/ansible/latest/modules/gcp_container_cluster_module.html
+https://docs.ansible.com/ansible/latest/modules/gcp_container_node_pool_module.html
+
+Check os type:
+cat /etc/os-release
+
+Kong setup:
+https://github.com/Kong/kubernetes-ingress-controller
+https://github.com/Kong/kubernetes-ingress-controller/blob/master/docs/deployment/gke.md
+https://github.com/Kong/kubernetes-ingress-controller/blob/master/docs/guides/getting-started.md
+
+Mongodb pod install
+https://codelabs.developers.google.com/codelabs/cloud-mongodb-statefulset/index.html?index=..%2F..index#1
+https://medium.com/devgorilla/how-to-deploy-mongodb-on-google-kubernetes-engine-gke-b099862fadbd
+https://kubernetes.io/blog/2017/01/running-mongodb-on-kubernetes-with-statefulsets/
+https://managedkube.com/kubernetes/pod/failure/crashloopbackoff/k8sbot/troubleshooting/2019/02/12/pod-failure-crashloopbackoff.html
+Delete mongodb from pod:
+https://kubernetes.io/blog/2017/01/running-mongodb-on-kubernetes-with-statefulsets/
+
+Connect to the first Replica Set member:
+kubectl exec -ti mongo-0 mongo
+
+Ansible scripts:
+https://docs.ansible.com/ansible/latest/modules/script_module.html
+https://docs.ansible.com/ansible/latest/modules/shell_module.html
+https://stackoverflow.com/questions/24851575/ansible-how-to-pass-multiple-commands
+
+Wait-module:
+https://docs.ansible.com/ansible/latest/modules/wait_for_module.html
